@@ -1,0 +1,17 @@
+/*Submenu icon    remove three from the navbar*/
+.et-menu .menu-item-has-children>a:first-child:after {
+    content: "3";
+    font-family: ETmodules;
+}
+
+@media (max-width: 1200px){
+header {
+    padding-top: 30px;
+}
+overlay{
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    z-index: 1111;
+}
+responsive 
